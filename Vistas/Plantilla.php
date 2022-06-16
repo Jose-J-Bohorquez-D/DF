@@ -10,7 +10,7 @@
 <div class="wrapper">
   <?php require_once("Vistas/Modulos/NavSup.php"); ?>
   <?php require_once("Vistas/Modulos/NavLat.php"); ?>
-  <?php require_once("Vistas/Paginas/inicio.php"); ?>
+  <?php $mvc=new MvcControlador; $mvc->enlacesPaginasControlador(); ?>
   <?php require_once("Vistas/Modulos/Footer.php"); ?>
 </div>
 <script src="Vistas/Js/Plantilla.js"></script>

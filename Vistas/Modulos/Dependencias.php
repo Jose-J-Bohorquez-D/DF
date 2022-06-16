@@ -15,6 +15,11 @@
 <script src="Vistas/Js/popper.min.js"></script>
 <script src="Vistas/Js/bootstrap.min.js"></script>
 
+<!-- DataTables -->
+<link rel="stylesheet" href="Vistas/Plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+<link rel="stylesheet" href="Vistas/Plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+<link rel="stylesheet" href="Vistas/Plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+
 <!-- jQuery --><script src="Vistas/Plugins/jquery/jquery.min.js"></script>
 <!-- jQuery UI 1.11.4 --><script src="Vistas/Plugins/jquery-ui/jquery-ui.min.js"></script>
 <!-- Bootstrap 4 --><script src="Vistas/Plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -29,3 +34,17 @@
 <!-- AdminLTE App --><script src="Vistas/Dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes <script src="Vistas/Dist/js/demo.js"></script> -->
 <!-- AdminLTE dashboard demo (This is only for demo purposes) <script src="Vistas/Dist/js/pages/dashboard.js"></script>-->
+
+<!-- DataTables  & Plugins -->
+<script src="Vistas/Plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="Vistas/Plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="Vistas/Plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="Vistas/Plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="Vistas/Plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="Vistas/Plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="Vistas/Plugins/jszip/jszip.min.js"></script>
+<script src="Vistas/Plugins/pdfmake/pdfmake.min.js"></script>
+<script src="Vistas/Plugins/pdfmake/vfs_fonts.js"></script>
+<script src="Vistas/Plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="Vistas/Plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="Vistas/Plugins/datatables-buttons/js/buttons.colVis.min.js"></script>

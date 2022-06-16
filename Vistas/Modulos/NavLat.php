@@ -9,8 +9,8 @@
         <img src="Vistas/Dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="index.php?action=inicio">Jose Bohorquez<?php #echo $_SESSION["nombres"];?></a><br>
-        <a href="index.php?action=inicio">Desarrollador<?php #echo $_SESSION["rol"];?></a>
+        <a href="index.php">Jose Bohorquez<?php #echo $_SESSION["nombres"];?></a><br>
+        <a href="index.php">Desarrollador<?php #echo $_SESSION["rol"];?></a>
       </div>
     </div>
     <nav class="mt-2">
@@ -66,7 +66,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="index.php?action=tablaGeneralDeServicios" class="nav-link">
+          <a href="index.php?action=tablaGeneralServicios" class="nav-link">
             <i class="nav-icon fa fa-solid fa-table" aria-hidden="true"></i>
             <p>General Table Of Services</p>
           </a>
