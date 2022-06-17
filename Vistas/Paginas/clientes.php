@@ -29,7 +29,7 @@
         </div>
         <div class="card-body">
           <div class="table-responsive-sm">
-            <table id="example2" class="table table-dark table-sm table-bordered table-hover text-nowrap table-striped-columns table-hover table-borderless">
+            <table id="example1" class="table table-dark table-sm table-bordered table-hover text-nowrap table-striped-columns table-hover table-borderless">
               <thead>
                 <tr>
                   <th>ACTIONS</th>
