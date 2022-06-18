@@ -11,7 +11,8 @@ class EnlacesPaginas{
 			$enlaceMdl == "usuarios" ||
 			$enlaceMdl == "vehiculos" ||
 			$enlaceMdl == "reportes" ||
-			$enlaceMdl == "tablaGeneralServicios" ) {
+			$enlaceMdl == "tablaGeneralServicios" ||
+			$enlaceMdl == "detalleCliente") {
 
 			$pagina="Vistas/Paginas/".$enlaceMdl.".php";
 

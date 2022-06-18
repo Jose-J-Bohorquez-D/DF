@@ -11,7 +11,7 @@ class ClienteControlador{
 			echo '
 				<tr>
 					<td>
-						<button class="btn btn-primary btn-sm">Profile</button>
+						<a href="index.php?action=detalleCliente" class="btn btn-primary btn-sm">Profile</a>
 						<button class="btn btn-warning btn-sm">Edit</button>
 						<button class="btn btn-danger btn-sm">Elim</button>
 					</td>
