@@ -17,16 +17,14 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="card card-primary card-outline">
               <div class="card-body box-profile">
-                <h3 class="profile-username text-center">nombre empresa</h3>
-                <p class="text-muted text-center">nombre dueño</p>
-                <a href="#" class="btn btn-primary btn-block"><b>editar perfil cliente</b></a>
+                <?php $mtrDtosPerfilCli1=new ClienteControlador; $mtrDtosPerfilCli1->mostrarDatosPerfilCliente(); ?>
               </div>
             </div>
           </div>
-          <div class="col-md-9">
+          <div class="col-md container-fluid">
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
@@ -41,7 +39,7 @@
                 <div class="tab-content">
                   <div class="active tab-pane" id="perfil">
                   <!-- espacio para mostrar datos del cliente -->
-                  <?php require_once("Vistas/Paginas/detalleClienteTabPerfil.php"); ?>                
+                  <?php $mtrDtosPerfilCli2=new ClienteControlador; $mtrDtosPerfilCli2->mostrarDatosTapPerfilCliente(); ?>       
                   </div>
                   <div class="tab-pane" id="trucks">
                   <!-- espacio para mostrar vehiculos del cliente -->
