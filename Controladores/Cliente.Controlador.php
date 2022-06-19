@@ -11,9 +11,9 @@ class ClienteControlador{
 			echo '
 				<tr>
 					<td>
-						<a href="index.php?action=detalleCliente" class="btn btn-primary btn-sm">Profile</a>
-						<button class="btn btn-warning btn-sm">Edit</button>
-						<button class="btn btn-danger btn-sm">Elim</button>
+						<a href="index.php?action=detalleCliente" class="btn btn-primary btn-sm">PROFILE</a>
+						<button class="btn btn-warning btn-sm">EDIT</button>
+						<button class="btn btn-danger btn-sm">DEL</button>
 					</td>
 					<td>'.$value["nombre_empresa"].'</td>
 				    <td>'.$value["nombre_cliente"].'</td>
@@ -30,8 +30,7 @@ class ClienteControlador{
 				    <td>'.$value["nm_permit"].'</td>
 				    <td>'.$value["ky_permit"].'</td>
 				</tr>
-				';
-						
+				';						
 		}
 	}
 }
