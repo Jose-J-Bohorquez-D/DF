@@ -3,7 +3,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Customer Profile</h1>
+            <h4>Customer Profile</h4>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -24,7 +24,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md container-fluid">
+          <div class="col-md-10 container-fluid">
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
@@ -43,7 +43,7 @@
                   </div>
                   <div class="tab-pane" id="trucks">
                   <!-- espacio para mostrar vehiculos del cliente -->
-                  <p>espacio para mostrar vehiculos del cliente</p>  
+                  <?php require_once("Vistas/Paginas/vistaDetalleClienteTapVehiculos.php"); ?>  
                   </div>
                   <div class="tab-pane" id="files">
                   <!-- espacio para mostrar los archivos subidos de este cliente -->
