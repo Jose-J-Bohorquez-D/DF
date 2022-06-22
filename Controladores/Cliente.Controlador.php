@@ -11,9 +11,9 @@ class ClienteControlador{
 			echo '
 				<tr>
 					<td>
-<a href="index.php?action=detalleCliente&idCliMstrDtos='.$value["id_cliente"].'" class="btn btn-primary btn-sm">PROFILE</a>
-<button class="btn btn-warning btn-sm">EDIT</button>
-<button class="btn btn-danger btn-sm">DEL</button>
+<a href="index.php?action=detalleCliente&idCliMstrDtos='.$value["id_cliente"].'" class="btn btn-primary btn-sm"><span class="fa-solid fa-address-card"></span></a>
+<a class="btn btn-warning btn-sm"><span class="fa-solid fa-pen-to-square"></span></a>
+<a class="btn btn-danger btn-sm"><span class="fa-solid fa-trash"></span></a>
 					</td>
 					<td>'.$value["nombre_empresa"].'</td>
 				    <td>'.$value["nombre_cliente"].'</td>
@@ -118,9 +118,12 @@ class ClienteControlador{
 echo '
 <tr>
 	<td>
-<a href="index.php?action=detalleCliente&idCliMstrDtos='.$value["id_vehiculo"].'" class="btn btn-primary btn-sm">SHOW SERVICES</a>
-<button class="btn btn-warning btn-sm">EDIT</button>
-<button class="btn btn-danger btn-sm">DEL</button>
+<a href="index.php?action=clienteDetalleVehiculo&idVehMstrDtos='.$value["id_vehiculo"].'" class="btn btn-warning btn-sm">
+<i class="fa-solid fa-eye"></i>
+<span class="fa-solid fa-pen-to-square">
+<i class="fa-solid fa-truck"></i>
+</a>
+<a class="btn btn-danger btn-sm"><span class="fa-solid fa-trash"></span></a>
 	</td>
 	<td>'.$value["placa"].'</td>
     <td>'.$value["modelo"].'</td>
@@ -141,6 +144,19 @@ echo '
 			
 		}
 	}
+
+	#--------------------------------------------------
+	/*		Mostrar datos en perfil del cliente	*/
+	#--------------------------------------------------
+	public function 
+
+	#--------------------------------------------------
+	/*		Mostrar pdfs	*/
+	#--------------------------------------------------
+
+	#--------------------------------------------------
+	/*		Mostrar tabla alcohol y drogas	*/
+	#--------------------------------------------------
 
 }#cierre de la clase
 

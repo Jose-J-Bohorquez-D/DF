@@ -1,5 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <a href="index.php" class="brand-link text-center">
+    <span class="fa-solid fa-truck-moving"></span>
     <!-- <img src="Vistas/Dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
     <span class="brand-text font-weight-light">TRUCKS SYSTEM</span>
   </a>
@@ -69,6 +70,13 @@
           <a href="index.php?action=tablaGeneralServicios" class="nav-link">
             <i class="nav-icon fa fa-solid fa-table" aria-hidden="true"></i>
             <p>General Table Of Services</p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="https://pay.xpress-pay.com/org/D839FF5013744CB" target="_bank" class="nav-link">
+            <i class="nav-icon fa-brands fa-paypal" aria-hidden="true"></i>
+            <p>Pay Gere</p>
           </a>
         </li>
       </ul>
